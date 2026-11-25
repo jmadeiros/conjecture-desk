@@ -23,7 +23,7 @@ With p = Gamma_{165,164} and Delta = Gamma_{165,165} - Gamma_{165,164} (both of 
 - `finder/`: the counterexample as found by GPT-6 Astra (twice, in two separate runs), with exact integer coefficients in `counterexample.json`.
 - `referee/`: the independent check by Claude: `REVIEW.md`, three separate exact implementations (`chow_bruteforce.py` from the definition, `chow_chain_fast.py` from the paper's chain formulas, `gamma_kernel.py` from the rational kernel) and `exact_check.py`, which decides every sign by exact integer arithmetic.
 
-A Lean certificate of the arithmetic is in preparation and is not included yet.
+- `lean/`: a Lean 4 certificate (core Lean, no Mathlib). The Lean kernel checks the degrees, the exact signs of both polynomials at 328 rational points (which fix the order of all the zeros), the window around the failure and the two Wronskian values, and recomputes the coefficients from the paper's closed formulas. It does NOT formalise the last step from those facts to "the conjecture is false" (intermediate value theorem and the definition of interlacing); that step is written out in `lean/ARGUMENT.md`. `lake build` takes about three minutes.
 
 ## Notes
 

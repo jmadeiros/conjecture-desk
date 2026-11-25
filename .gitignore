@@ -4,3 +4,5 @@ prover/pdk
 referee/eta2
 referee/ak_ref
 __pycache__/
+.lake/
+__pycache__/

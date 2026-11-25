@@ -1,0 +1,6 @@
+name = "zhang214"
+defaultTargets = ["Zhang214"]
+
+[[lean_lib]]
+name = "Zhang214"
+roots = ["Certificate", "Recompute"]
