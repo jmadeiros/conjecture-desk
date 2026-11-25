@@ -1,0 +1,4 @@
+{'deg_p': 164, 'deg_g': 164, 'p_real_rooted_certified': True, 'g_real_rooted_certified': True, 'merged_order_certified': True}
+gamma root word (s from -inf to 0), p=Gamma_{a,b-1}, g=Gamma_{a,b}:
+pgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpggppgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpg
+Chow interlacing H_(a,b-1) <= H_(a,b) holds (word == 'pg'*d): False

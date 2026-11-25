@@ -1,0 +1,40 @@
+k=3 N=1000000 mod 3^7 ; first coefficients: 1 3 12 34 96 237 576 1296
+  progression 12n+10: terms=83333 min v3=1 (first at n=10) ; histogram v3=0..7: 0 22384 1255 12 36584 13753 4620 4725
+  progression 12n+7: terms=83333 min v3=4 (first at n=7) ; histogram v3=0..7: 0 0 0 0 53101 16985 5125 8122
+  progression 12n+11: terms=83333 min v3=4 (first at n=11) ; histogram v3=0..7: 0 0 0 0 53110 16945 7299 5979
+  progression 6n+5: terms=166666 min v3=1 (first at n=5) ; histogram v3=0..7: 0 43631 2406 28 73025 27732 11039 8805
+  progression 18n+15: terms=55555 min v3=2 (first at n=15) ; histogram v3=0..7: 0 0 33185 13648 4663 2741 898 420
+  progression 3n+2: terms=333333 min v3=1 (first at n=2) ; histogram v3=0..7: 0 89746 5049 83 130694 65324 24148 18289
+  progression 3n+1: terms=333334 min v3=1 (first at n=1) ; histogram v3=0..7: 0 89744 5074 95 130649 65367 22026 20379
+k=4 N=1000000 mod 3^7 ; first coefficients: 1 4 18 60 191 540 1464 1521
+  progression 12n+10: terms=83333 min v3=0 (first at n=10) ; histogram v3=0..7: 55515 18561 6163 2048 706 217 79 44
+  progression 12n+7: terms=83333 min v3=0 (first at n=19) ; histogram v3=0..7: 55757 18415 6148 2018 665 228 67 35
+  progression 12n+11: terms=83333 min v3=3 (first at n=11) ; histogram v3=0..7: 0 0 0 52730 16549 7875 2874 3305
+  progression 6n+5: terms=166666 min v3=3 (first at n=5) ; histogram v3=0..7: 0 0 0 105490 33087 15724 5783 6582
+  progression 18n+15: terms=55555 min v3=2 (first at n=15) ; histogram v3=0..7: 0 0 35806 10918 5227 2221 978 405
+  progression 3n+2: terms=333333 min v3=2 (first at n=2) ; histogram v3=0..7: 0 0 58185 144046 44395 53513 19053 14141
+  progression 3n+1: terms=333334 min v3=0 (first at n=1) ; histogram v3=0..7: 222304 74175 24606 8111 2769 924 300 145
+k=6 N=1000000 mod 3^7 ; first coefficients: 1 6 33 140 540 1866 1660 768
+  progression 12n+10: terms=83333 min v3=5 (first at n=22) ; histogram v3=0..7: 0 0 0 0 0 47505 21841 13987
+  progression 12n+7: terms=83333 min v3=1 (first at n=7) ; histogram v3=0..7: 0 41681 112 518 691 26823 8912 4596
+  progression 12n+11: terms=83333 min v3=1 (first at n=23) ; histogram v3=0..7: 0 55453 18587 6185 2072 678 255 103
+  progression 6n+5: terms=166666 min v3=1 (first at n=5) ; histogram v3=0..7: 0 111044 37023 12462 4134 1344 480 179
+  progression 18n+15: terms=55555 min v3=0 (first at n=15) ; histogram v3=0..7: 37078 12278 4138 1315 518 138 51 39
+  progression 3n+2: terms=333333 min v3=1 (first at n=2) ; histogram v3=0..7: 0 222195 74105 24820 8195 2686 916 416
+  progression 3n+1: terms=333334 min v3=1 (first at n=1) ; histogram v3=0..7: 0 83348 239 30971 2591 117417 63884 34884
+k=7 N=1000000 mod 3^7 ; first coefficients: 1 7 42 196 819 879 1920 1895
+  progression 12n+10: terms=83333 min v3=0 (first at n=10) ; histogram v3=0..7: 55452 18577 6120 2107 721 229 79 48
+  progression 12n+7: terms=83333 min v3=0 (first at n=7) ; histogram v3=0..7: 55533 18543 6182 2076 681 218 62 38
+  progression 12n+11: terms=83333 min v3=3 (first at n=11) ; histogram v3=0..7: 0 0 0 53110 16073 9396 2949 1805
+  progression 6n+5: terms=166666 min v3=1 (first at n=5) ; histogram v3=0..7: 0 43631 2406 73053 24633 15349 4865 2729
+  progression 18n+15: terms=55555 min v3=1 (first at n=15) ; histogram v3=0..7: 0 33185 6555 8739 4604 1442 711 319
+  progression 3n+2: terms=333333 min v3=1 (first at n=2) ; histogram v3=0..7: 0 89746 5049 130777 58971 32205 10000 6585
+  progression 3n+1: terms=333334 min v3=0 (first at n=1) ; histogram v3=0..7: 222049 74211 24640 8340 2782 878 281 153
+k=8 N=1000000 mod 3^7 ; first coefficients: 1 8 52 264 1186 394 228 252
+  progression 12n+10: terms=83333 min v3=0 (first at n=10) ; histogram v3=0..7: 55515 18561 6042 2157 716 234 79 29
+  progression 12n+7: terms=83333 min v3=0 (first at n=19) ; histogram v3=0..7: 55757 18415 6115 2038 659 231 81 37
+  progression 12n+11: terms=83333 min v3=0 (first at n=11) ; histogram v3=0..7: 55556 18496 6140 2123 672 225 67 54
+  progression 6n+5: terms=166666 min v3=0 (first at n=5) ; histogram v3=0..7: 111236 36973 12094 4261 1396 472 140 94
+  progression 18n+15: terms=55555 min v3=5 (first at n=15) ; histogram v3=0..7: 0 0 0 0 0 33597 13775 8183
+  progression 3n+2: terms=333333 min v3=0 (first at n=2) ; histogram v3=0..7: 222379 74126 24391 8293 2758 927 276 183
+  progression 3n+1: terms=333334 min v3=0 (first at n=1) ; histogram v3=0..7: 222304 74175 24327 8385 2752 948 303 140

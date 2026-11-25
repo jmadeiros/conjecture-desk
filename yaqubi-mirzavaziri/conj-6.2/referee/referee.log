@@ -1,0 +1,78 @@
+P = f4 f6^2/(f1 f3 f12) begins [1, 1, 2, 4, 5, 8, 12, 16] (paper prints 1+q+2q^2+4q^3+5q^4)
+B_k(3) = k(k+2)(k+7)/6 for k=1..60: True
+
+[B1] f = Delta(4t)^1 Q^3: eta exponents {1: 3, 3: 3, 4: 21, 6: -6, 12: 3}
+  weight 12, order at infinity 4 (expect 4c=4), Newman level N=48, character trivial=True (s square class 4398046511104)
+  Ligozat: holomorphic at all 10 cusps = True; smallest cusp order 1 at d=6
+  mu(16N) = 1536, Sturm bound floor(w*mu/12) = 1536;  write-up claims (N,w,B) = (48, 12, 1536)
+  smallest holomorphic c = 1; agrees with write-up table: True
+  f coefficients, n<=B, n=3 mod 4: L=1536 shift=4 need=1 checked_n=384 min_v2=1 at_n=7 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551613 0 2 18446744073709551604 63 18446744073709551600 18446744073709551556 0 18446744073709551087 384 756
+  Q^j coefficients, n<=B, n=3 mod 4: L=1536 shift=0 need=1 checked_n=384 min_v2=1 at_n=3 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551613 0 2 12 18446744073709551607 18446744073709551600 18446744073709551604 36 11 0 18446744073709551580
+  C residues match exact big-int Q^j for n<=11: True
+  RESULT B1: PASS
+
+[B2] f = Delta(4t)^2 Q^7: eta exponents {1: 7, 3: 7, 4: 41, 6: -14, 12: 7}
+  weight 24, order at infinity 8 (expect 4c=8), Newman level N=144, character trivial=True (s square class 4835703278458516698824704)
+  Ligozat: holomorphic at all 15 cusps = True; smallest cusp order 1 at d=6
+  mu(16N) = 4608, Sturm bound floor(w*mu/12) = 9216;  write-up claims (N,w,B) = (144, 24, 9216)
+  smallest holomorphic c = 2; agrees with write-up table: True
+  f coefficients, n<=B, n=3 mod 4: L=9216 shift=8 need=2 checked_n=2304 min_v2=2 at_n=15 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551609 14 0 18446744073709551575 210 18446744073709551056 188 975 18446744073709549047 9408 18446744073709543544
+  Q^j coefficients, n<=B, n=3 mod 4: L=9216 shift=0 need=2 checked_n=2304 min_v2=2 at_n=7 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551609 14 0 7 18446744073709551490 112 188 231 18446744073709550559 18446744073709551280 952
+  C residues match exact big-int Q^j for n<=11: True
+  RESULT B2: PASS
+
+[B4] f = Delta(4t)^2 Q^6: eta exponents {1: 6, 3: 6, 4: 42, 6: -12, 12: 6}
+  weight 24, order at infinity 8 (expect 4c=8), Newman level N=24, character trivial=True (s square class 19342813113834066795298816)
+  Ligozat: holomorphic at all 8 cusps = True; smallest cusp order 1 at d=6
+  mu(16N) = 768, Sturm bound floor(w*mu/12) = 1536;  write-up claims (N,w,B) = (24, 24, 1536)
+  smallest holomorphic c = 2; agrees with write-up table: True
+  f coefficients, n<=B, n=3 mod 4: L=1536 shift=8 need=2 checked_n=384 min_v2=2 at_n=11 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551610 9 4 18446744073709551580 198 18446744073709551210 18446744073709551544 756 18446744073709548982 8055 18446744073709550248
+  Q^j coefficients, n<=B, n=3 mod 4: L=1536 shift=0 need=2 checked_n=384 min_v2=2 at_n=3 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551610 9 4 12 18446744073709551526 26 120 252 18446744073709551142 18446744073709551199 72
+  C residues match exact big-int Q^j for n<=11: True
+  RESULT B4: PASS
+
+[B5a] f = Delta(4t)^3 Q^10: eta exponents {1: 10, 3: 10, 4: 62, 6: -20, 12: 10}
+  weight 36, order at infinity 12 (expect 4c=12), Newman level N=72, character trivial=True (s square class 21267647932558653966460912964485513216)
+  Ligozat: holomorphic at all 12 cusps = True; smallest cusp order 1 at d=6
+  mu(16N) = 2304, Sturm bound floor(w*mu/12) = 6912;  write-up claims (N,w,B) = (72, 36, 6912)
+  smallest holomorphic c = 3; agrees with write-up table: True
+  f coefficients, n<=B, n=3 mod 4: L=6912 shift=12 need=3 checked_n=1728 min_v2=3 at_n=15 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551606 35 18446744073709551576 18446744073709551549 508 18446744073709549801 2720 1519 18446744073709538530 42184 18446744073709469496
+  Q^j coefficients, n<=B, n=3 mod 4: L=6912 shift=0 need=3 checked_n=1728 min_v2=3 at_n=3 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551606 35 18446744073709551576 5 18446744073709551404 705 18446744073709551456 18446744073709551011 18446744073709548106 6004 5720
+  C residues match exact big-int Q^j for n<=11: True
+  RESULT B5a: PASS
+
+[B5b] f = Delta(4t)^1 Q^2: eta exponents {1: 2, 3: 2, 4: 22, 6: -4, 12: 2}
+  weight 12, order at infinity 4 (expect 4c=4), Newman level N=72, character trivial=True (s square class 17592186044416)
+  Ligozat: holomorphic at all 12 cusps = True; smallest cusp order 1 at d=6
+  mu(16N) = 2304, Sturm bound floor(w*mu/12) = 2304;  write-up claims (N,w,B) = (72, 12, 2304)
+  smallest holomorphic c = 1; agrees with write-up table: True
+  f coefficients, n<=B, n=3 mod 4: L=2304 shift=4 need=3 checked_n=576 min_v2=3 at_n=11 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551614 18446744073709551615 0 18446744073709551599 48 19 18446744073709551608 90 18446744073709551112 18446744073709551489 192
+  Q^j coefficients, n<=B, n=3 mod 4: L=2304 shift=0 need=3 checked_n=576 min_v2=3 at_n=7 below_need=0 first_bad=-1
+first residues of product (unshifted): 1 18446744073709551614 18446744073709551615 0 7 0 18446744073709551611 18446744073709551608 6 0 5 0
+  C residues match exact big-int Q^j for n<=11: True
+  RESULT B5b: PASS
+
+Exactness witnesses, exact big integers:
+  B3: [q^7] Q^7 = 188 (claimed 188), v2 = 2
+  B3: [q^3] Q^15 = -260 (claimed -260), v2 = 2
+  B6: [q^7] Q^2 = -8 (claimed -8), v2 = 3
+  B6: [q^3] Q^10 = -40 (claimed -40), v2 = 3
+  B6: [q^7] Q^18 = -18072 (claimed -18072), v2 = 3
+  B6: [q^3] Q^26 = -1976 (claimed -1976), v2 = 3
+  scan Q^7: n=3 mod 4, n<40 with v2 < 3: [(7, 188), (15, -2716), (23, 24500)]
+  scan Q^15: n=3 mod 4, n<40 with v2 < 3: [(3, -260), (27, 86261740)]
+  scan Q^2: n=3 mod 4, n<40 with v2 < 4: [(7, -8), (31, -200)]
+  scan Q^10: n=3 mod 4, n<40 with v2 < 4: [(3, -40), (11, 5720), (27, 1279800)]
+  scan Q^18: n=3 mod 4, n<40 with v2 < 4: [(7, -18072), (23, -46455336), (31, 4429634472)]
+  scan Q^26: n=3 mod 4, n<40 with v2 < 4: [(3, -1976), (11, -2693704), (19, -404239784)]
+
+ALL B-ITEMS PASS

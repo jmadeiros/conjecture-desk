@@ -1,0 +1,24 @@
+  product factor t=20000 done (7.0s)
+  product factor t=40000 done (12.5s)
+  product factor t=60000 done (16.4s)
+  product factor t=80000 done (17.9s)
+  product factor t=100000 done (18.7s)
+F (combinatorial product) first terms: 1 1 3 5 10 15 28 41 69 102 160 231 352  (18.9s)
+route 1 vs route 2 (eta quotient) for F mod 3^10, n<=112400: mismatches = 0  (19.0s)
+F^2 done (21.1s)
+F^3 done (23.3s)
+F^6 done (25.5s)
+F^7 done (27.6s)
+F^4 done to 40000 (27.9s)
+F^8 done to 40000 (28.2s)
+associativity cross-checks to 40000: mismatches = 0 (29.0s)
+6.3  A_6(12n+10) mod 3^5: n<=7776 (need 7776): 648 terms, min v3 = 5, first failure -1 -> OK | to n<=112400: 9366 terms, min v3 = 5, first failure -1 | v3 histogram 0..10(>=10): 0 0 0 0 0 5518 2426 971 314 90 47
+6.4a A_3(12n+7)  mod 3^4: n<=19008 (need 19008): 1584 terms, min v3 = 4, first failure -1 -> OK | to n<=112400: 9367 terms, min v3 = 4, first failure -1 | v3 histogram 0..10(>=10): 0 0 0 0 6189 1946 572 431 160 45 24
+6.4a A_3(12n+11) mod 3^4: n<=19008 (need 19008): 1584 terms, min v3 = 4, first failure -1 -> OK | to n<=112400: 9366 terms, min v3 = 4, first failure -1 | v3 histogram 0..10(>=10): 0 0 0 0 6191 1940 712 289 151 52 31
+6.4b A_4(6n+5)   mod 3^3: n<=2160 (need 2160): 360 terms, min v3 = 3, first failure -1 -> OK | to n<=40000: 6666 terms, min v3 = 3, first failure -1 | v3 histogram 0..10(>=10): 0 0 0 4464 1366 526 147 106 40 11 6
+6.4b A_7(12n+11) mod 3^3: n<=112320 (need 112320): 9360 terms, min v3 = 3, first failure -1 -> OK | to n<=112400: 9366 terms, min v3 = 3, first failure -1 | v3 histogram 0..10(>=10): 0 0 0 6191 1724 982 304 113 39 7 6
+6.4c A_8(18n+15) mod 3^5: n<=36288 (need 36288): 2016 terms, min v3 = 5, first failure -1 -> OK | to n<=40000: 2222 terms, min v3 = 5, first failure -1 | v3 histogram 0..10(>=10): 0 0 0 0 0 1405 533 192 60 22 10
+A_6(10) mod 3^10 = 29889 (v3 = 6), A_6(22) mod 3^10 = 43497 (v3 = 5)
+6.3 exactness: among n=10 mod 12, n<=112400: v3==5 for 5518 terms, v3>=6 for 3848 terms (first at n=10)
+ALL SIX CLAIMS VERIFIED TO THEIR STURM RANGES (29.0s)
+exit=0

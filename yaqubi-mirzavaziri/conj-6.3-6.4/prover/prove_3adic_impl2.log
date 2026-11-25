@@ -1,0 +1,15 @@
+F coefficients 0..8: [1, 1, 3, 5, 10, 15, 28, 41, 69]
+k=3: coefficients 0..112400 vs pdk.c dump: mismatches = 0
+k=4: coefficients 0..112400 vs pdk.c dump: mismatches = 0
+k=6: coefficients 0..112400 vs pdk.c dump: mismatches = 0
+k=7: coefficients 0..112400 vs pdk.c dump: mismatches = 0
+k=8: coefficients 0..112400 vs pdk.c dump: mismatches = 0
+{"conj": "6.3", "claim": "A_6(12n+10) = 0 mod 3^5", "delta_power": 5, "level": 12, "weight": 54, "sturm": 3888, "checked_n_upto": 7776, "terms": 648, "min_v3": 5, "PROVED": true}
+{"conj": "6.4a", "claim": "A_3(12n+7) = 0 mod 3^4", "delta_power": 3, "level": 24, "weight": 33, "sturm": 19008, "checked_n_upto": 19008, "terms": 1584, "min_v3": 4, "PROVED": true}
+{"conj": "6.4a", "claim": "A_3(12n+11) = 0 mod 3^4", "delta_power": 3, "level": 24, "weight": 33, "sturm": 19008, "checked_n_upto": 19008, "terms": 1584, "min_v3": 4, "PROVED": true}
+{"conj": "6.4b", "claim": "A_4(6n+5) = 0 mod 3^3", "delta_power": 2, "level": 18, "weight": 20, "sturm": 2160, "checked_n_upto": 2160, "terms": 360, "min_v3": 3, "PROVED": true}
+{"conj": "6.4b", "claim": "A_7(12n+11) = 0 mod 3^3", "delta_power": 6, "level": 72, "weight": 65, "sturm": 112320, "checked_n_upto": 112320, "terms": 9360, "min_v3": 3, "PROVED": true}
+{"conj": "6.4c", "claim": "A_8(18n+15) = 0 mod 3^5", "delta_power": 10, "level": 18, "weight": 112, "sturm": 12096, "checked_n_upto": 36288, "terms": 2016, "min_v3": 5, "PROVED": true}
+exactness for 6.3: v3(A_6(22)) = 5  A_6(22) mod 3^7 = 1944   (6635911068 mod 3^7 = 1944 )
+ALL OK
+nice /usr/local/bin/python3.12 prove_3adic_impl2.py  260.20s user 34.06s system 97% cpu 5:01.65 total

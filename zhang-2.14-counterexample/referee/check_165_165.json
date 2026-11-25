@@ -1,0 +1,31 @@
+{
+ "deg_p": 164,
+ "deg_g": 164,
+ "g_nonzero": true,
+ "clause1_nonneg_coeffs": true,
+ "min_coeff_g": 0,
+ "g_zero_mult_at_0": 1,
+ "p_nonreal_roots(arb)": 0,
+ "g_nonreal_roots(arb)": 0,
+ "merged_roots_distinct": true,
+ "p_sign_changes_exact": 164,
+ "h_sign_changes_exact": 163,
+ "p_real_rooted_certified": true,
+ "g_real_rooted_certified": true,
+ "merged_order_certified": true,
+ "root_word_left_to_right": "pgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgppggpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpgpg",
+ "clause3_strictly_alternating": false,
+ "violations_at_word_positions": [
+  280,
+  282
+ ],
+ "num_violations": 2,
+ "first_violation_interval": [
+  "-1/18",
+  "-56/1131"
+ ],
+ "W(0)": 164.0,
+ "W(0)_exact_floor": "164",
+ "W(-5/101)": -5620.0502969348945,
+ "W(-5/101)_exact_floor": "-5621"
+}

@@ -1,0 +1,15 @@
+brute-force PD(n), n<=20, equals product series: [1, 1, 3, 5, 10, 15, 28, 41, 69, 102, 160, 231, 352, 498, 732, 1027, 1470, 2031, 2856, 3896, 5382]
+A_6(10) = 384183 v3 = 6
+A_6(22) = 6635911068 v3 = 5
+v3 of A_6(12n+10), n=0..32: [6, 5, 5, 5, 5, 6, 6, 5, 5, 5, 6, 5, 5, 5, 5, 6, 8, 5, 5, 5, 8, 6, 5, 5, 5, 7, 5, 5, 5, 5, 8, 6, 5]
+k=3: exact vs C residues mod 3^10, n<=400: mismatches = 0
+k=4: exact vs C residues mod 3^10, n<=400: mismatches = 0
+k=6: exact vs C residues mod 3^10, n<=400: mismatches = 0
+k=7: exact vs C residues mod 3^10, n<=400: mismatches = 0
+k=8: exact vs C residues mod 3^10, n<=400: mismatches = 0
+exact: A_6(12n+10), n<=400: min v3 = 5 (claim 5)
+exact: A_3(12n+7), n<=400: min v3 = 4 (claim 4)
+exact: A_3(12n+11), n<=400: min v3 = 4 (claim 4)
+exact: A_4(6n+5), n<=400: min v3 = 3 (claim 3)
+exact: A_7(12n+11), n<=400: min v3 = 3 (claim 3)
+exact: A_8(18n+15), n<=400: min v3 = 5 (claim 5)

@@ -1,0 +1,20 @@
+{"label": "A T3(G)", "j": 1, "claim_mod": "identically 0", "delta4_power": 0, "N": 72, "weight": 1, "sturm": 192, "min_v2": "all zero", "PROVED": true}
+{"label": "A T3(G^j)", "j": 2, "claim_mod": "2^2", "delta4_power": 0, "N": 36, "weight": 2, "sturm": 192, "min_v2": 2, "PROVED": true}
+{"label": "A T3(G^j)", "j": 6, "claim_mod": "2^3", "delta4_power": 0, "N": 12, "weight": 6, "sturm": 192, "min_v2": 3, "PROVED": true}
+{"label": "A T3(G^j)", "j": 10, "claim_mod": "2^2", "delta4_power": 0, "N": 36, "weight": 10, "sturm": 960, "min_v2": 2, "PROVED": true}
+{"label": "A T3(G^j)", "j": 14, "claim_mod": "2^3", "delta4_power": 0, "N": 36, "weight": 14, "sturm": 1344, "min_v2": 3, "PROVED": true}
+{"label": "A exactness class 2 mod 16", "j": 14, "n": 7, "v2": 3, "coef": "-12168", "need_lt": 4, "FOUND": true}
+{"label": "A exactness class 2 mod 16", "j": 30, "n": 7, "v2": 3, "coef": "247080", "need_lt": 4, "FOUND": true}
+{"label": "B T3(Q^j)", "j": 3, "claim_mod": "2^1", "delta4_power": 1, "N": 48, "weight": 12, "sturm": 1536, "min_v2": 1, "PROVED": true}
+{"label": "B T3(Q^j)", "j": 7, "claim_mod": "2^2", "delta4_power": 2, "N": 144, "weight": 24, "sturm": 9216, "min_v2": 2, "PROVED": true}
+{"label": "B T3(Q^j)", "j": 6, "claim_mod": "2^2", "delta4_power": 2, "N": 24, "weight": 24, "sturm": 1536, "min_v2": 2, "PROVED": true}
+{"label": "B T3(Q^j)", "j": 10, "claim_mod": "2^3", "delta4_power": 3, "N": 72, "weight": 36, "sturm": 6912, "min_v2": 3, "PROVED": true}
+{"label": "B T3(Q^j)", "j": 2, "claim_mod": "2^3", "delta4_power": 1, "N": 72, "weight": 12, "sturm": 2304, "min_v2": 3, "PROVED": true}
+{"label": "B exactness class 1 mod 8", "j": 7, "n": 7, "v2": 2, "coef": "188", "need_lt": 3, "FOUND": true}
+{"label": "B exactness class 1 mod 8", "j": 15, "n": 3, "v2": 2, "coef": "-260", "need_lt": 3, "FOUND": true}
+{"label": "B exactness class 6 mod 8", "j": 2, "n": 7, "v2": 3, "coef": "-8", "need_lt": 4, "FOUND": true}
+{"label": "B exactness class 6 mod 8", "j": 10, "n": 3, "v2": 3, "coef": "-40", "need_lt": 4, "FOUND": true}
+{"label": "B exactness class 6 mod 8", "j": 18, "n": 7, "v2": 3, "coef": "-18072", "need_lt": 4, "FOUND": true}
+{"label": "B exactness class 6 mod 8", "j": 26, "n": 3, "v2": 3, "coef": "-1976", "need_lt": 4, "FOUND": true}
+ALL OK
+nice /usr/local/bin/python3.12 prove_2adic_impl2.py  9.80s user 0.03s system 99% cpu 9.879 total
